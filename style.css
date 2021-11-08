@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 1500px;
+  width: 1350px;
   display: block;
 }
 header {
@@ -19,7 +19,7 @@ header {
 .search_box,
 .sign-in,
 .header-nav {
-  margin: 0px 150px;
+  margin: 40px 150px 0px 170px;
 }
 
 section,
@@ -92,7 +92,8 @@ article {
 }
 .header-nav ul li {
   width: 120px;
-  margin: 10px 50px;
+  left: 0;
+  margin: 5px 70px;
   padding: 10px;
 }
 .header-nav ul li a {
