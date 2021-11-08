@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  display: block;
+}
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
+.header-top,
+.search_box,
+.sign-in,
+.header-nav {
+  margin: 0 150px 0 150px;
+}
+
+section,
+article {
+  margin: 0 150px 0 150px;
+}
+.header-nav {
+  clear: left;
+}
+.ebook-logo img {
+  margin: 20px;
+  width: 200px;
+  float: left;
+}
+.search_box {
+  float: left;
+  position: relative;
+  margin: 28px 0 0 90px;
+  width: 300px;
+  height: 60px;
+}
+.header-top .input {
+  border: 0;
+  outline: none;
+}
+.search_box .input {
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 40px;
+  padding: 10px 20px;
+  border: 1px solid blue;
+  border-radius: 50px;
+}
+
+.search_box .btn {
+  position: absolute;
+  top: 11px;
+  right: -85px;
+  width: 20px;
+  height: 100%;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.sign-in {
+  display: flex;
+  align-items: center;
+}
+.sign-in img {
+  margin: 30px 0 0 200px;
+  width: 50px;
+  max-width: 100%;
+}
+
+.sign-in-text {
+  position: absolute;
+  margin: 28px 0 0 260px;
+  font-size: 12px;
+}
+
+.header-nav {
+  text-align: center;
+}
+
+.header-nav ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.header-nav ul li {
+  width: 120px;
+  margin: 4px 50px;
+  padding: 10px;
+}
+.header-nav ul li a {
+  color: black;
+  text-decoration: none;
+}
